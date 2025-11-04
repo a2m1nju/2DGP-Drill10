@@ -31,6 +31,6 @@ class Bird:
         clip_left = frame_col * 182
         clip_bottom = (2 - frame_row) * 172
 
-        self.image.clip_draw(clip_left, clip_bottom, 180, 150, self.x, self.y)
+        self.image.clip_draw(clip_left, clip_bottom, 180, 150, self.x, self.y, 50, 50)
 
 
