@@ -24,6 +24,7 @@ def handle_events():
 
 def init():
     global boy
+    global bird
     global running
 
     running = True
@@ -33,8 +34,9 @@ def init():
     boy = Boy()
     game_world.add_object(boy, 1)
 
-    bird = Bird()
-    game_world.add_object(bird, 2)
+    birds = [Bird() for _ in range(10)]
+    for bird in birds:
+        game_world.add_object(bird, 2)
 
 def update():
     game_world.update()
