@@ -53,5 +53,4 @@ class Bird:
         else:
             self.image.clip_composite_draw(clip_left, clip_bottom, 180, 150, 0, 'h', self.x, self.y, 30, 30)
 
-
-
+            
