@@ -49,8 +49,8 @@ class Bird:
         clip_bottom = (2 - frame_row) * 172
 
         if self.dir == 1:
-            self.image.clip_draw(clip_left, clip_bottom, 180, 150, self.x, self.y, 50, 50)
+            self.image.clip_draw(clip_left, clip_bottom, 180, 150, self.x, self.y, 30, 30)
         else:
-            self.image.clip_composite_draw(clip_left, clip_bottom, 180, 150, 0, 'h', self.x, self.y, 50, 50)
+            self.image.clip_composite_draw(clip_left, clip_bottom, 180, 150, 0, 'h', self.x, self.y, 30, 30)
 
 
