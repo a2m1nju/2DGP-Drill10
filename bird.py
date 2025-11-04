@@ -6,7 +6,7 @@ from ball import Ball
 from state_machine import StateMachine
 
 
-class bird:
+class Bird:
     def __init__(self):
         pass
 
@@ -19,4 +19,5 @@ class bird:
 
     def draw(self):
         pass
+
 
